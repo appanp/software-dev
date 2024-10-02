@@ -30,4 +30,5 @@
 1. [CIOs: Here’s How to Tell a Good IT Value Story](https://www.gartner.com/en/chief-information-officer/insights/it-value-story), Gartner - [pdf link](https://emt.gartnerweb.com/ngw/globalassets/en/doc/documents/787769-executive-essentials-demonstrate-the-business-value-of-it.pdf)
 1. [Top 4 Open Source Security Testing Tools to Test Web Application](https://www.softwaretestinghelp.com/open-source-security-testing-tools/) - lists Acunetix, invicti (Netsparker), Blacksight, Zed Attack Proxy (ZAP), Burp Suite, Klocwork and SonarQube. 
 1. [Micro frontend Resources](https://github.com/billyjov/microfrontend-resources), github repo
-1. [40 years of SE Experience in 19 minutes](https://www.youtube.com/watch?v=cOcd9UN6w7U), Continuous Delivery, Youtube 
+1. [40 years of SE Experience in 19 minutes](https://www.youtube.com/watch?v=cOcd9UN6w7U), Continuous Delivery, Youtube
+1. [Vertical Slice Architecture - presentation by Jimmy Bogard](https://www.youtube.com/watch?v=SUiWfhAhgQw), NDC Conferences, Oct 2018

@@ -49,9 +49,11 @@ Some of the TODOs to complete this terminology list are:
 
 **GitOps**: A set of practices that aim to automate as much as possible, so that there's less room for human error and more time can be spent on high-value tasks. This enables teams to collaborate better and work faster.
 
+**Interactive Application Security Testing (IAST)**: IAST is an application security testing method that tests the application while the app is run by an automated test, human tester, or any activity “interacting” with the application functionality. The core of an IAST tool is sensor modules, software libraries included in the application code. These sensor modules keep track of application behavior while the interactive tests are running. If a vulnerability is detected, an alert will be sent. For more info, refer to [this link](https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing).
+
 **Kubernetes**: An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications.
 
-**Microservices Architecture**: Software development paradigm that structures an application as a collection of small, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently.
+**Microservices Architecture**: Software development paradigm that structures an application as a collection of small, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently. For more info, refer to [this link](TODO) and [Monolithic vs Microservices Architecture: Pros, Cons and Which to Choose](https://www.openlegacy.com/blog/monolithic-application).
 
 - _Advantages_:
 
@@ -64,6 +66,8 @@ Some of the TODOs to complete this terminology list are:
   - Higher complexity and overhead
   - Increased communication and coordination challenges
   - Potential for increased costs
+
+**Modular Monolith**: Modular monolithic architecture is a way of organizing a software application into a set of modules. These modules have specific functionality, which can be independently developed and tested, while the entire application is deployed as a single unit. There might arise a situation where a few modules need to be extracted for reasons such as scale. A modular monolithic application will enable this with minimal effort. For more info, refer to [When Modular Monolith is the better way to build software](https://www.thoughtworks.com/en-us/insights/blog/microservices/modular-monolith-better-way-build-software).
 
 **OWASP**: The Open Web Application Security Project, an organization dedicated to improving the security of web applications.
 
@@ -117,5 +121,5 @@ Some of the TODOs to complete this terminology list are:
 
 **Version Control System (VCS)**: Software that helps manage changes to source code over time. Some popular VCS tools are Git, SVN, and Mercurial.
 
-**Vertical Slice Architecture (VSA)**: In this style, my architecture is built around distinct requests, encapsulating and grouping all concerns from front-end to back. You take a normal "n-tier" or hexagonal/whatever architecture and remove the gates and barriers across those layers, and couple along the axis of change. For more info, refer to [this link](https://www.jimmybogard.com/vertical-slice-architecture/).
+**Vertical Slice Architecture (VSA)**: In this style, my architecture is built around distinct requests, encapsulating and grouping all concerns from front-end to back. You take a normal "n-tier" or hexagonal/whatever architecture and remove the gates and barriers across those layers, and couple along the axis of change. For more info, refer to [this link](https://www.jimmybogard.com/vertical-slice-architecture/) and [VSA by Milan Jovanovic](https://www.milanjovanovic.tech/blog/vertical-slice-architecture).
 
