@@ -1,5 +1,10 @@
 ## Terminology
 
+Some of the TODOs to complete this terminology list are:
+
+- [ ] - Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms]( https://www.parasoft.com/glossary/) and []().
+- [ ] - Add "for more info" links to each term.
+
 **Agile Development**: A framework for developing software in short, iterative cycles called sprints. Focuses on customer feedback and continuous improvement. It has the following benefits compared to the _Waterfall software development_ approach:
 
 - Increased productivity and efficiency
@@ -8,7 +13,25 @@
 - Reduced risk of failure
 - Increased flexibility and adaptability
 
-**Architecture Observability**: The ability to observe and understand the behavior of a system's architecture. It involves monitoring and analyzing the performance, latency, and other key metrics of a system. (TODO - add links)
+**Architecture Observability**: Architectural Observability is like having a very detailed map of a software application. It gives architects detailed visibility and context into an existing application’s architecture to profile and baseline how an application is architected, identifying domains and cross-domain contamination, collecting observable dynamic operational and static data to proactively fix issues, set baselines, detect drift, identify significant architectural events, and resolve architectural inconsistencies. For more info, refer to [this link](https://dzone.com/articles/the-agile-architect-mastering-architectural-observ) and [vFunction Platform](https://vfunction.com/use-cases/architectural-drift/) and [RedMonk Conversation - Shifting Architecture Left](https://vfunction.com/resources/video-redmonk-shifting-architecture-left/).
+
+**Backlog**: A collection of features, requirements, and user stories that need to be implemented in a project. A prioritized list of features and tasks to be completed in an Agile project.
+
+**Code Review**: The process of examining source code to ensure it meets certain standards and best practices. It helps improve the quality and maintainability of the codebase.
+
+**Code Snippet**: A small piece of code used to illustrate a particular concept or technique.
+
+**Command Query Response Seggregation (CQRS)**: TODO
+
+**DAST**: Dynamic Analysis for Security Testing, a type of security testing that uses automated tools to identify vulnerabilities in an application's code. Some of the open-source DAST tools are OWASP ZAP, Veracode SCA, and Burp Suite. This is a technique for testing web applications, mobile apps and APIs to identify vulnerabilities that can be exploited by attackers.
+
+- Gartner predicts that by 2026, 50% of large global enterprises will use DAST as part of their security testing processes.
+
+**DesignOps**: The intersection of design and operations, which aims to improve the efficiency and effectiveness of product development by integrating design thinking into the operational workflow.
+
+**DevOps**: It is practice in which development & operations are not treated as separate.
+
+**DevSecOps**: A set of practices that combines development and security into a single process. This approach aims to ensure that security is integrated into every stage of the software development lifecycle, from development to deployment.
 
 **Event-Driven Architecture (EDA)**: A software development paradigm that structures an application around the concept of events. Events are used to communicate between different components of the system.
 
@@ -23,22 +46,6 @@
   - Higher complexity and overhead
   - Potential for increased costs
   - Requires careful event handling and processing
-
-**Backlog**: A collection of features, requirements, and user stories that need to be implemented in a project. A prioritized list of features and tasks to be completed in an Agile project.
-
-**Code Review**: The process of examining source code to ensure it meets certain standards and best practices. It helps improve the quality and maintainability of the codebase.
-
-**Code Snippet**: A small piece of code used to illustrate a particular concept or technique.
-
-**DAST**: Dynamic Analysis for Security Testing, a type of security testing that uses automated tools to identify vulnerabilities in an application's code. Some of the open-source DAST tools are OWASP ZAP, Veracode SCA, and Burp Suite. This is a technique for testing web applications, mobile apps and APIs to identify vulnerabilities that can be exploited by attackers.
-
-- Gartner predicts that by 2026, 50% of large global enterprises will use DAST as part of their security testing processes.
-
-**DesignOps**: The intersection of design and operations, which aims to improve the efficiency and effectiveness of product development by integrating design thinking into the operational workflow.
-
-**DevOps**: It is practice in which development & operations are not treated as separate.
-
-**DevSecOps**: A set of practices that combines development and security into a single process. This approach aims to ensure that security is integrated into every stage of the software development lifecycle, from development to deployment.
 
 **GitOps**: A set of practices that aim to automate as much as possible, so that there's less room for human error and more time can be spent on high-value tasks. This enables teams to collaborate better and work faster.
 
@@ -94,6 +101,8 @@
 
 **Singleton Pattern**: A creational pattern that restricts a class from instantiating multiple objects.
 
+**Software Engineering Intelligence**: For more info, refer to [this link](https://www.getport.io/glossary/software-engineering-intelligence-platform).
+
 **Sprint**: A time-boxed period (typically 2-4 weeks) during which a team works on a subset of the backlog. The goal is to deliver a potentially shippable product at the end of each sprint.
 
 **Sprint Planning**: A meeting at the beginning of each sprint to determine the tasks to be completed.
@@ -107,3 +116,6 @@
 **Technical Debt**: The cost of implementing quick fixes or workarounds that need to be addressed later. It can lead to increased maintenance costs, decreased productivity, and reduced quality over time. For more info, refer to [this link](https://www.gartner.com/en/infrastructure-and-it-operations-leaders/topics/technical-debt).
 
 **Version Control System (VCS)**: Software that helps manage changes to source code over time. Some popular VCS tools are Git, SVN, and Mercurial.
+
+**Vertical Slice Architecture (VSA)**: In this style, my architecture is built around distinct requests, encapsulating and grouping all concerns from front-end to back. You take a normal "n-tier" or hexagonal/whatever architecture and remove the gates and barriers across those layers, and couple along the axis of change. For more info, refer to [this link](https://www.jimmybogard.com/vertical-slice-architecture/).
+
