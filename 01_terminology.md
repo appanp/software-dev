@@ -8,7 +8,23 @@
 - Reduced risk of failure
 - Increased flexibility and adaptability
 
-**Backlog**: A prioritized list of features and tasks to be completed in an Agile project.
+**Architecture Observability**: The ability to observe and understand the behavior of a system's architecture. It involves monitoring and analyzing the performance, latency, and other key metrics of a system. (TODO - add links)
+
+**Event-Driven Architecture (EDA)**: A software development paradigm that structures an application around the concept of events. Events are used to communicate between different components of the system.
+
+- _Advantages_:
+
+  - Improved scalability and flexibility
+  - Increased fault tolerance and reliability
+  - Easier maintenance and updates
+  - Faster time-to-market
+
+- _Disadvantages_:
+  - Higher complexity and overhead
+  - Potential for increased costs
+  - Requires careful event handling and processing
+
+**Backlog**: A collection of features, requirements, and user stories that need to be implemented in a project. A prioritized list of features and tasks to be completed in an Agile project.
 
 **Code Review**: The process of examining source code to ensure it meets certain standards and best practices. It helps improve the quality and maintainability of the codebase.
 
@@ -27,6 +43,20 @@
 **GitOps**: A set of practices that aim to automate as much as possible, so that there's less room for human error and more time can be spent on high-value tasks. This enables teams to collaborate better and work faster.
 
 **Kubernetes**: An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications.
+
+**Microservices Architecture**: Software development paradigm that structures an application as a collection of small, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently.
+
+- _Advantages_:
+
+  - Increased scalability and flexibility
+  - Improved fault isolation and reliability
+  - Easier maintenance and updates
+  - Faster time-to-market
+
+- _Disadvantages_:
+  - Higher complexity and overhead
+  - Increased communication and coordination challenges
+  - Potential for increased costs
 
 **OWASP**: The Open Web Application Security Project, an organization dedicated to improving the security of web applications.
 
@@ -47,6 +77,22 @@
 **Security Auditing**: The process of evaluating an organization's or system's security controls to ensure they meet certain standards and regulations.
 
 **Security Testing**: The process of identifying vulnerabilities in a system or application to improve its overall security posture.
+
+**Service-Oriented Architecture (SOA)**: A software development paradigm that structures an application as a collection of services that can be accessed and used by other applications.
+
+- _Advantages_:
+
+  - Improved scalability and flexibility
+  - Increased fault isolation and reliability
+  - Easier maintenance and updates
+  - Faster time-to-market
+
+- _Disadvantages_:
+  - Higher complexity and overhead
+  - Potential for increased costs
+  - Requires careful service design and implementation
+
+**Singleton Pattern**: A creational pattern that restricts a class from instantiating multiple objects.
 
 **Sprint**: A time-boxed period (typically 2-4 weeks) during which a team works on a subset of the backlog. The goal is to deliver a potentially shippable product at the end of each sprint.
 
