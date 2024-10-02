@@ -2,7 +2,7 @@
 
 Some of the TODOs to complete this terminology list are:
 
-- [ ] - Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms]( https://www.parasoft.com/glossary/) and []().
+- [ ] - Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms]( https://www.parasoft.com/glossary/) and [IEEE Standard glossary for SE terminology (84 pages)](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf).
 - [ ] - Add "for more info" links to each term.
 
 **Agile Development**: A framework for developing software in short, iterative cycles called sprints. Focuses on customer feedback and continuous improvement. It has the following benefits compared to the _Waterfall software development_ approach:

@@ -28,5 +28,6 @@
 1. [Five Ways Artificial Intelligence and Machine Learning Deliver Business Impacts](https://emt.gartnerweb.com/ngw/globalassets/en/doc/documents/431403-five-ways-artificial-intelligence-and-machine-learning-deliver-business-impacts.pdf), Gartner, Oct 2019. There is a newer version, dated Jun 2021.
    - Data and analytics leaders can use this research as a guide to help them identify which AI use cases are highly relevant and will deliver maximum impact for their organization.
 1. [CIOs: Here’s How to Tell a Good IT Value Story](https://www.gartner.com/en/chief-information-officer/insights/it-value-story), Gartner - [pdf link](https://emt.gartnerweb.com/ngw/globalassets/en/doc/documents/787769-executive-essentials-demonstrate-the-business-value-of-it.pdf)
-1. TODO: Add DAST tool references in open-source
-1. TODO: Add open-source SAST tool references
+1. [Top 4 Open Source Security Testing Tools to Test Web Application](https://www.softwaretestinghelp.com/open-source-security-testing-tools/) - lists Acunetix, invicti (Netsparker), Blacksight, Zed Attack Proxy (ZAP), Burp Suite, Klocwork and SonarQube. 
+1. [Micro frontend Resources](https://github.com/billyjov/microfrontend-resources), github repo
+1. [40 years of SE Experience in 19 minutes](https://www.youtube.com/watch?v=cOcd9UN6w7U), Continuous Delivery, Youtube 
