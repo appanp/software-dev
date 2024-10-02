@@ -14,7 +14,9 @@
 
 **Code Snippet**: A small piece of code used to illustrate a particular concept or technique.
 
-**DAST**: Dynamic Analysis for Security Testing, a type of security testing that uses automated tools to identify vulnerabilities in an application's code. Some of the open-source DAST tools are OWASP ZAP, Veracode SCA, and Burp Suite.
+**DAST**: Dynamic Analysis for Security Testing, a type of security testing that uses automated tools to identify vulnerabilities in an application's code. Some of the open-source DAST tools are OWASP ZAP, Veracode SCA, and Burp Suite. This is a technique for testing web applications, mobile apps and APIs to identify vulnerabilities that can be exploited by attackers.
+
+- Gartner predicts that by 2026, 50% of large global enterprises will use DAST as part of their security testing processes.
 
 **DesignOps**: The intersection of design and operations, which aims to improve the efficiency and effectiveness of product development by integrating design thinking into the operational workflow.
 
@@ -27,6 +29,10 @@
 **Kubernetes**: An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications.
 
 **OWASP**: The Open Web Application Security Project, an organization dedicated to improving the security of web applications.
+
+**OWASP Top 10**: The Open Web Application Security Project (OWASP) publishes an annual list of the top ten most critical web application security risks. DAST tools are used to identify vulnerabilities that can be exploited by attackers and prevent attacks on web applications, mobile apps and APIs.
+
+- Gartner predicts that by 2027, 30% of large global enterprises will use OWASP Top 10 as part of their security testing processes.
 
 **Pair Programming**: A programming technique in which two developers work together on a single task, sharing their screens and keyboards.
 
