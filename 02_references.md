@@ -32,3 +32,4 @@
 1. [Micro frontend Resources](https://github.com/billyjov/microfrontend-resources), github repo
 1. [40 years of SE Experience in 19 minutes](https://www.youtube.com/watch?v=cOcd9UN6w7U), Continuous Delivery, Youtube
 1. [Vertical Slice Architecture - presentation by Jimmy Bogard](https://www.youtube.com/watch?v=SUiWfhAhgQw), NDC Conferences, Oct 2018
+1. [Cool Vendors in AI-Augmented Development and Testing for Software Engineering](https://www.gartner.com/doc/reprints?id=1-2IJP8MQZ&ct=240815&st=sb), Gartner, Aug 2024

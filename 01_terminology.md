@@ -2,7 +2,7 @@
 
 Some of the TODOs to complete this terminology list are:
 
-- [ ] - Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms]( https://www.parasoft.com/glossary/) and [IEEE Standard glossary for SE terminology (84 pages)](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf).
+- [ ] - Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms](https://www.parasoft.com/glossary/) and [IEEE Standard glossary for SE terminology (84 pages)](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf).
 - [ ] - Add "for more info" links to each term.
 
 **Agile Development**: A framework for developing software in short, iterative cycles called sprints. Focuses on customer feedback and continuous improvement. It has the following benefits compared to the _Waterfall software development_ approach:
@@ -29,6 +29,7 @@ Some of the TODOs to complete this terminology list are:
 
 **DesignOps**: The intersection of design and operations, which aims to improve the efficiency and effectiveness of product development by integrating design thinking into the operational workflow.
 
+**Development Value Stream**:
 **DevOps**: It is practice in which development & operations are not treated as separate.
 
 **DevSecOps**: A set of practices that combines development and security into a single process. This approach aims to ensure that security is integrated into every stage of the software development lifecycle, from development to deployment.
@@ -68,6 +69,14 @@ Some of the TODOs to complete this terminology list are:
   - Potential for increased costs
 
 **Modular Monolith**: Modular monolithic architecture is a way of organizing a software application into a set of modules. These modules have specific functionality, which can be independently developed and tested, while the entire application is deployed as a single unit. There might arise a situation where a few modules need to be extracted for reasons such as scale. A modular monolithic application will enable this with minimal effort. For more info, refer to [When Modular Monolith is the better way to build software](https://www.thoughtworks.com/en-us/insights/blog/microservices/modular-monolith-better-way-build-software).
+
+**Operational Value Stream**: Operational value streams correspond directly to a specific value driver. They:
+
+- Represent the flow of business and the nature of the business
+- Deliver end-customer value indefinitely as long as an organization continues to offer a given product or service
+- Are supported by development value streams
+
+For more info, refer to [this link](https://blog.planview.com/operational-vs-development-value-streams-whats-the-difference).
 
 **OWASP**: The Open Web Application Security Project, an organization dedicated to improving the security of web applications.
 
@@ -119,7 +128,13 @@ Some of the TODOs to complete this terminology list are:
 
 **Technical Debt**: The cost of implementing quick fixes or workarounds that need to be addressed later. It can lead to increased maintenance costs, decreased productivity, and reduced quality over time. For more info, refer to [this link](https://www.gartner.com/en/infrastructure-and-it-operations-leaders/topics/technical-debt).
 
+**Value Stream**: Value Streams represent the series of steps that an organization uses to implement Solutions that provide a _continuous flow of value to a customer_. A SAFe portfolio contains one or more value streams, each of which is dedicated to build and support a set of solutions, which are the products, services, or systems delivered to the Customer, whether internal or external to the Enterprise. It is the sequence of activities an organization undertakes to deliver on a customer need. It comprises the end-to-end delivery process, from idea to outcome. For more info, refer to [this link]() and [Planview: How to identify your value streams](https://info.planview.com/rs/456-QCH-520/images/Identifyng-Value-Streams.pdf).
+
+**Value Stream Management**: It is the practice of measuring and improving end-to-end flow, eliminating dependencies and bottlenecks to unlock capacity and deliver value more efficiently. The [Flow Framework](https://flowframework.org/) is a blueprint for practicing value stream management. It provides guidance on how to map and measure product value streams to gain full visibility into the work and its impact on business outcomes.
+
+**Value Stream Mapping**: A technique used to visualize and analyze a process to identify areas for improvement, by identifying value-adding and non-value add steps in the process.
+For more info, refer to [this link](https://www.lean.org/the-lean-post/articles/understanding-the-fundamentals-of-value-stream-mapping).
+
 **Version Control System (VCS)**: Software that helps manage changes to source code over time. Some popular VCS tools are Git, SVN, and Mercurial.
 
 **Vertical Slice Architecture (VSA)**: In this style, my architecture is built around distinct requests, encapsulating and grouping all concerns from front-end to back. You take a normal "n-tier" or hexagonal/whatever architecture and remove the gates and barriers across those layers, and couple along the axis of change. For more info, refer to [this link](https://www.jimmybogard.com/vertical-slice-architecture/) and [VSA by Milan Jovanovic](https://www.milanjovanovic.tech/blog/vertical-slice-architecture).
-
