@@ -2,7 +2,8 @@
 
 Some of the TODOs to complete this terminology list are:
 
-- [ ] - Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms](https://www.parasoft.com/glossary/) and [IEEE Standard glossary for SE terminology (84 pages)](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf).
+- [ ] Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms](https://www.parasoft.com/glossary/).
+- [x] [IEEE Standard glossary for SE terminology (84 pages)](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf), published in 2010 - just FYI, it might still contain a few useful terms for the current times.
 - [ ] - Add "for more info" links to each term.
 
 **Agile Development**: A framework for developing software in short, iterative cycles called sprints. Focuses on customer feedback and continuous improvement. It has the following benefits compared to the _Waterfall software development_ approach:
@@ -21,7 +22,7 @@ Some of the TODOs to complete this terminology list are:
 
 **Code Snippet**: A small piece of code used to illustrate a particular concept or technique.
 
-**Command Query Response Seggregation (CQRS)**: TODO
+**Command Query Response Seggregation (CQRS) Principle/Pattern**: The idea behind the CQRS pattern is very simple. Instead of having one unified model, you need to introduce two: one for reads and the other one for writes, and that’s it. CQRS was introduced by Greg Young back in 2010. Greg, himself, based this idea on the command-query separation principle coined by Bertrand Meyer. Command-query separation principle, CQS for short, states that every method should either be a command that performs an action, or a query that returns data to the caller, but not both. To follow this principle, you need to make sure that if a method changes some piece of state, this method should always be of type void, otherwise, it should return something. For more info, refer to [this link](https://codewithshadman.com/cqrs-design-pattern-csharp/) and [CQRS Pattern - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs).
 
 **DAST**: Dynamic Analysis for Security Testing, a type of security testing that uses automated tools to identify vulnerabilities in an application's code. Some of the open-source DAST tools are OWASP ZAP, Veracode SCA, and Burp Suite. This is a technique for testing web applications, mobile apps and APIs to identify vulnerabilities that can be exploited by attackers.
 
@@ -53,6 +54,10 @@ Some of the TODOs to complete this terminology list are:
 **Interactive Application Security Testing (IAST)**: IAST is an application security testing method that tests the application while the app is run by an automated test, human tester, or any activity “interacting” with the application functionality. The core of an IAST tool is sensor modules, software libraries included in the application code. These sensor modules keep track of application behavior while the interactive tests are running. If a vulnerability is detected, an alert will be sent. For more info, refer to [this link](https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing).
 
 **Kubernetes**: An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications.
+
+**Language Server**: Language Servers can provide language-specific features such as code completion, documentation, and formatting, which is far easier than implementing language support from scratch. It also reduces the need for constant maintenance and tracking of changes in relevant languages and tools, making it easier to bring consistent language support to various development environments. For more info, refer to [this link](https://tamerlan.dev/an-introduction-to-the-language-server-protocol/) and [implementation list of language servers](https://langserver.org/).
+
+**Language Server Protocol (LSP)**: The Language Server Protocol (LSP) is an open-standard protocol developed by Microsoft. It enables communication between development tools and Language Servers. For more info, refer to [this link](https://tamerlan.dev/an-introduction-to-the-language-server-protocol/) and the [protocol specification](https://microsoft.github.io/language-server-protocol/).
 
 **Microservices Architecture**: Software development paradigm that structures an application as a collection of small, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently. For more info, refer to [this link](TODO) and [Monolithic vs Microservices Architecture: Pros, Cons and Which to Choose](https://www.openlegacy.com/blog/monolithic-application).
 
@@ -128,7 +133,7 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 
 **Technical Debt**: The cost of implementing quick fixes or workarounds that need to be addressed later. It can lead to increased maintenance costs, decreased productivity, and reduced quality over time. For more info, refer to [this link](https://www.gartner.com/en/infrastructure-and-it-operations-leaders/topics/technical-debt).
 
-**Value Stream**: Value Streams represent the series of steps that an organization uses to implement Solutions that provide a _continuous flow of value to a customer_. A SAFe portfolio contains one or more value streams, each of which is dedicated to build and support a set of solutions, which are the products, services, or systems delivered to the Customer, whether internal or external to the Enterprise. It is the sequence of activities an organization undertakes to deliver on a customer need. It comprises the end-to-end delivery process, from idea to outcome. For more info, refer to [this link]() and [Planview: How to identify your value streams](https://info.planview.com/rs/456-QCH-520/images/Identifyng-Value-Streams.pdf).
+**Value Stream**: Value Streams represent the series of steps that an organization uses to implement Solutions that provide a _continuous flow of value to a customer_. A SAFe portfolio contains one or more value streams, each of which is dedicated to build and support a set of solutions, which are the products, services, or systems delivered to the Customer, whether internal or external to the Enterprise. It is the sequence of activities an organization undertakes to deliver on a customer need. It comprises the end-to-end delivery process, from idea to outcome. For more info, refer to [this link](), [Planview: How to identify your value streams](https://info.planview.com/rs/456-QCH-520/images/Identifyng-Value-Streams.pdf) and [How to Identify Your Value Streams: 6 Strategies for Getting Started](https://blog.planview.com/how-to-identify-your-value-streams-6-strategies-for-getting-started/).
 
 **Value Stream Management**: It is the practice of measuring and improving end-to-end flow, eliminating dependencies and bottlenecks to unlock capacity and deliver value more efficiently. The [Flow Framework](https://flowframework.org/) is a blueprint for practicing value stream management. It provides guidance on how to map and measure product value streams to gain full visibility into the work and its impact on business outcomes.
 
