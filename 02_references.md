@@ -33,3 +33,14 @@
 1. [40 years of SE Experience in 19 minutes](https://www.youtube.com/watch?v=cOcd9UN6w7U), Continuous Delivery, Youtube
 1. [Vertical Slice Architecture - presentation by Jimmy Bogard](https://www.youtube.com/watch?v=SUiWfhAhgQw), NDC Conferences, Oct 2018
 1. [Cool Vendors in AI-Augmented Development and Testing for Software Engineering](https://www.gartner.com/doc/reprints?id=1-2IJP8MQZ&ct=240815&st=sb), Gartner, Aug 2024
+1. [Gartner Magic Quadrant for API Management, Oct 2024](https://www.gartner.com/doc/reprints?id=1-2J3GKA7W&ct=241017&st=sb). Featured vendors/products include the following:
+   - *Leaders*: [Google's Apigee](https://cloud.google.com/apigee/), [IBM's API Connect](https://www.ibm.com/products/api-connect), [Axway](https://www.axway.com/en/amplify-api-management), [Salesforce's Mulesoft AnyPoint Platform](), [Kong](https://konghq.com/products/kong-gateway), [Gravitee.io](https://www.gravitee.io/blog/introducing-event-native-api-management), [Smartbear](https://smartbear.com/api-lifecycle/), partners with other vendors for API gateway.
+   - *Visionaries*: [WSO2's API Manager](https://apim.docs.wso2.com/en/latest/), [solo.io's Gloo Gateway](https://www.solo.io/products/gloo-gateway/), [Postman]()
+   - *Niche Players*: [Sensedia](https://www.sensedia.com.br/produtos/api-management), [Boomi](https://boomi.com/platform/api-management/), [Software AG](https://www.softwareag.com/en_corporate/platform/integration-apis/api-management.html)
+   - *Challengers*: [AWS](https://aws.amazon.com/api-gateway/), [SAP](https://help.sap.com/docs/integration-suite#develop_task-api-management), [Tyk](https://tyk.io/api-product-management/), [Microsoft's Azure API Management (APIM)]()
+1. [Top6 Microservices Patterns](https://www.mulesoft.com/lp/whitepaper/api/top-microservices-patterns), Mulesoft
+1. [Arazzo Specfication](https://spec.openapis.org/arazzo/latest.html), v1.0.0 released 2024-05-29
+   - The aim of the Arazzo Specification is to provide a mechanism that can define sequences of calls and their dependencies to be woven together and expressed in the context of delivering a particular outcome or set of outcomes when dealing with API descriptions (such as OpenAPI descriptions).
+   - The Arazzo Specification can articulate these workflows in a human-readable and machine-readable manner, thus improving the capability of API specifications to tell the story of the API in a manner that can improve the consuming developer experience.
+1. [Information modeling with JADN v1.0](https://docs.oasis-open.org/openc2/imjadn/v1.0/imjadn-v1.0.html), OASIS Open specification
+1. [API Gateway Buyer's Guide](https://www.solo.io/resources/ebook/api-gateway-buyers-guide/pdf/), solo.io
