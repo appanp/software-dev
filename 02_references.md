@@ -44,3 +44,9 @@
    - The Arazzo Specification can articulate these workflows in a human-readable and machine-readable manner, thus improving the capability of API specifications to tell the story of the API in a manner that can improve the consuming developer experience.
 1. [Information modeling with JADN v1.0](https://docs.oasis-open.org/openc2/imjadn/v1.0/imjadn-v1.0.html), OASIS Open specification
 1. [API Gateway Buyer's Guide](https://www.solo.io/resources/ebook/api-gateway-buyers-guide/pdf/), solo.io
+1. [Hype Cycle for AI in Software Engineering, 2024](https://www.gartner.com/doc/reprints?id=1-2J1QMYRA&ct=241010&st=sb), 29 July 2024 - ID G00818219.
+1. [2024 HR Technology Imperatives](https://emt.gartnerweb.com/ngw/globalassets/en/human-resources/documents/2024-hr-technology-planning-imperatives.pdf), Gartner
+1. [What Is Earned Wage Access, and Should You Provide It?](https://www.staffing.com/what-is-earned-wage-access-and-should-you-provide-it-untitled/)
+1. [Skills, applicant gaps threaten US manufacturing growth](https://action.deloitte.com/insight/3896/skills-applicant-gaps-threaten-us-manufacturing-growth), 24 April 2024
+1. [Taking charge: Manufacturers support growth with active workforce strategies](https://www2.deloitte.com/us/en/insights/industry/manufacturing/supporting-us-manufacturing-growth-amid-workforce-challenges.html), 03 April 2024
+1. [Gartner reveals top HR tech trends for 2024 including AI](https://cfotech.in/story/gartner-reveals-top-hr-tech-trends-for-2024-including-ai), 27th Nov 2024
