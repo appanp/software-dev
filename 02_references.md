@@ -50,3 +50,4 @@
 1. [Skills, applicant gaps threaten US manufacturing growth](https://action.deloitte.com/insight/3896/skills-applicant-gaps-threaten-us-manufacturing-growth), 24 April 2024
 1. [Taking charge: Manufacturers support growth with active workforce strategies](https://www2.deloitte.com/us/en/insights/industry/manufacturing/supporting-us-manufacturing-growth-amid-workforce-challenges.html), 03 April 2024
 1. [Gartner reveals top HR tech trends for 2024 including AI](https://cfotech.in/story/gartner-reveals-top-hr-tech-trends-for-2024-including-ai), 27th Nov 2024
+1. [Increasing Business Value with Better IT Operations](https://services.google.com/fh/files/misc/sre-it-operations-whitepaper.pdf), A guide to Site Reliability Engineering (SRE)

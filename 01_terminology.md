@@ -119,6 +119,8 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 
 **Singleton Pattern**: A creational pattern that restricts a class from instantiating multiple objects.
 
+**Site Reliability Engineer (SRE)**: SRE is a job function, a mindset, and a set of engineering practices to run reliable production systems. Google Cloud helps you implement SRE principles through tooling, professional services, and other resources. For more info, refer to [this link](https://cloud.google.com/sre).
+
 **Software Engineering Intelligence**: For more info, refer to [this link](https://www.getport.io/glossary/software-engineering-intelligence-platform).
 
 **Sprint**: A time-boxed period (typically 2-4 weeks) during which a team works on a subset of the backlog. The goal is to deliver a potentially shippable product at the end of each sprint.
