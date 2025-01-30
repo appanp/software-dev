@@ -5,6 +5,7 @@ Some of the TODOs to complete this terminology list are:
 - [ ] Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms](https://www.parasoft.com/glossary/).
 - [x] [IEEE Standard glossary for SE terminology (84 pages)](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf), published in 2010 - just FYI, it might still contain a few useful terms for the current times.
 - [ ] - Add "for more info" links to each term.
+- [ ] - Add anchors & links for getting to the terms quickly using an index.
 
 **Agile Development**: A framework for developing software in short, iterative cycles called sprints. Focuses on customer feedback and continuous improvement. It has the following benefits compared to the _Waterfall software development_ approach:
 
@@ -48,6 +49,16 @@ Some of the TODOs to complete this terminology list are:
   - Higher complexity and overhead
   - Potential for increased costs
   - Requires careful event handling and processing
+
+**Fusion Team Strategy**: A fusion team strategy is a way to collaborate across departments to solve problems and achieve business goals. Fusion teams are often used in software development and digital transformation. When assembling a fusion team, don’t forget to:
+
+1. Keep the team small — less than 9 people
+1. Recruit people with expertise relevant to the goal
+1. Appoint a team leader with sound digital judgment
+1. Involve fusion team leaders to help create governance and compliance practices
+1. Share insights and lessons learned across the organization 
+
+For more info, refer to [this link](https://www.mendix.com/blog/fusion-teams-explained-benefits-roles-examples).
 
 **GitOps**: A set of practices that aim to automate as much as possible, so that there's less room for human error and more time can be spent on high-value tasks. This enables teams to collaborate better and work faster.
 
@@ -116,6 +127,8 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
   - Higher complexity and overhead
   - Potential for increased costs
   - Requires careful service design and implementation
+
+**Shadow IT**: Shadow IT is the introduction of new tools and technology without the knowledge or approval from the IT department. And it’s becoming a big concern since IT is no longer the only source for developing apps. For more info, refer to [this link](https://www.techtarget.com/searchcloudcomputing/definition/shadow-IT-shadow-information-technology).
 
 **Singleton Pattern**: A creational pattern that restricts a class from instantiating multiple objects.
 
