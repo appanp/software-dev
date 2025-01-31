@@ -5,7 +5,11 @@ Some of the TODOs to complete this terminology list are:
 - [ ] Add the terms from [agile alliance](https://www.agilealliance.org/agile101/agile-glossary/), [wovenware terminology](https://www.wovenware.com/software-development-glossary/), [parasoft terms](https://www.parasoft.com/glossary/).
 - [x] [IEEE Standard glossary for SE terminology (84 pages)](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf), published in 2010 - just FYI, it might still contain a few useful terms for the current times.
 - [ ] - Add "for more info" links to each term.
-- [ ] - Add anchors & links for getting to the terms quickly using an index.
+- [x] - Add anchors & links for getting to the terms quickly using an index.
+
+[A](#anc-a) [B](#anc-b) [C](#anc-c) [D](#anc-d) [E](#anc-e) [F](#anc-f) [G](#anc-g) H [I](#anc-i) [K](#anc-k) [L](#anc-l) [M](#anc-m) N [O](#anc-o) [P](#anc-p) Q [R](#anc-r) [S](#anc-s) [T](#anc-t) U [V](#anc-v) W X Y Z
+
+<a name="anc-a">
 
 **Agile Development**: A framework for developing software in short, iterative cycles called sprints. Focuses on customer feedback and continuous improvement. It has the following benefits compared to the _Waterfall software development_ approach:
 
@@ -17,7 +21,11 @@ Some of the TODOs to complete this terminology list are:
 
 **Architecture Observability**: Architectural Observability is like having a very detailed map of a software application. It gives architects detailed visibility and context into an existing application’s architecture to profile and baseline how an application is architected, identifying domains and cross-domain contamination, collecting observable dynamic operational and static data to proactively fix issues, set baselines, detect drift, identify significant architectural events, and resolve architectural inconsistencies. For more info, refer to [this link](https://dzone.com/articles/the-agile-architect-mastering-architectural-observ) and [vFunction Platform](https://vfunction.com/use-cases/architectural-drift/) and [RedMonk Conversation - Shifting Architecture Left](https://vfunction.com/resources/video-redmonk-shifting-architecture-left/).
 
+<a name="anc-b">
+
 **Backlog**: A collection of features, requirements, and user stories that need to be implemented in a project. A prioritized list of features and tasks to be completed in an Agile project.
+
+<a name="anc-c">
 
 **Code Review**: The process of examining source code to ensure it meets certain standards and best practices. It helps improve the quality and maintainability of the codebase.
 
@@ -25,16 +33,21 @@ Some of the TODOs to complete this terminology list are:
 
 **Command Query Response Seggregation (CQRS) Principle/Pattern**: The idea behind the CQRS pattern is very simple. Instead of having one unified model, you need to introduce two: one for reads and the other one for writes, and that’s it. CQRS was introduced by Greg Young back in 2010. Greg, himself, based this idea on the command-query separation principle coined by Bertrand Meyer. Command-query separation principle, CQS for short, states that every method should either be a command that performs an action, or a query that returns data to the caller, but not both. To follow this principle, you need to make sure that if a method changes some piece of state, this method should always be of type void, otherwise, it should return something. For more info, refer to [this link](https://codewithshadman.com/cqrs-design-pattern-csharp/) and [CQRS Pattern - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs).
 
+<a name="anc-d">
+
 **DAST**: Dynamic Analysis for Security Testing, a type of security testing that uses automated tools to identify vulnerabilities in an application's code. Some of the open-source DAST tools are OWASP ZAP, Veracode SCA, and Burp Suite. This is a technique for testing web applications, mobile apps and APIs to identify vulnerabilities that can be exploited by attackers.
 
 - Gartner predicts that by 2026, 50% of large global enterprises will use DAST as part of their security testing processes.
 
 **DesignOps**: The intersection of design and operations, which aims to improve the efficiency and effectiveness of product development by integrating design thinking into the operational workflow.
 
-**Development Value Stream**:
+**Development Value Stream**: TODO
+
 **DevOps**: It is practice in which development & operations are not treated as separate.
 
 **DevSecOps**: A set of practices that combines development and security into a single process. This approach aims to ensure that security is integrated into every stage of the software development lifecycle, from development to deployment.
+
+<a name="anc-e">
 
 **Event-Driven Architecture (EDA)**: A software development paradigm that structures an application around the concept of events. Events are used to communicate between different components of the system.
 
@@ -50,25 +63,37 @@ Some of the TODOs to complete this terminology list are:
   - Potential for increased costs
   - Requires careful event handling and processing
 
+<a name="anc-f">
+
 **Fusion Team Strategy**: A fusion team strategy is a way to collaborate across departments to solve problems and achieve business goals. Fusion teams are often used in software development and digital transformation. When assembling a fusion team, don’t forget to:
 
 1. Keep the team small — less than 9 people
 1. Recruit people with expertise relevant to the goal
 1. Appoint a team leader with sound digital judgment
 1. Involve fusion team leaders to help create governance and compliance practices
-1. Share insights and lessons learned across the organization 
+1. Share insights and lessons learned across the organization
 
 For more info, refer to [this link](https://www.mendix.com/blog/fusion-teams-explained-benefits-roles-examples).
 
+<a name="anc-g">
+
 **GitOps**: A set of practices that aim to automate as much as possible, so that there's less room for human error and more time can be spent on high-value tasks. This enables teams to collaborate better and work faster.
+
+<a name="anc-i">
 
 **Interactive Application Security Testing (IAST)**: IAST is an application security testing method that tests the application while the app is run by an automated test, human tester, or any activity “interacting” with the application functionality. The core of an IAST tool is sensor modules, software libraries included in the application code. These sensor modules keep track of application behavior while the interactive tests are running. If a vulnerability is detected, an alert will be sent. For more info, refer to [this link](https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing).
 
+<a name="anc-k">
+
 **Kubernetes**: An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications.
+
+<a name="anc-l">
 
 **Language Server**: Language Servers can provide language-specific features such as code completion, documentation, and formatting, which is far easier than implementing language support from scratch. It also reduces the need for constant maintenance and tracking of changes in relevant languages and tools, making it easier to bring consistent language support to various development environments. For more info, refer to [this link](https://tamerlan.dev/an-introduction-to-the-language-server-protocol/) and [implementation list of language servers](https://langserver.org/).
 
 **Language Server Protocol (LSP)**: The Language Server Protocol (LSP) is an open-standard protocol developed by Microsoft. It enables communication between development tools and Language Servers. For more info, refer to [this link](https://tamerlan.dev/an-introduction-to-the-language-server-protocol/) and the [protocol specification](https://microsoft.github.io/language-server-protocol/).
+
+<a name="anc-m">
 
 **Microservices Architecture**: Software development paradigm that structures an application as a collection of small, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently. For more info, refer to [this link](TODO) and [Monolithic vs Microservices Architecture: Pros, Cons and Which to Choose](https://www.openlegacy.com/blog/monolithic-application).
 
@@ -86,6 +111,8 @@ For more info, refer to [this link](https://www.mendix.com/blog/fusion-teams-exp
 
 **Modular Monolith**: Modular monolithic architecture is a way of organizing a software application into a set of modules. These modules have specific functionality, which can be independently developed and tested, while the entire application is deployed as a single unit. There might arise a situation where a few modules need to be extracted for reasons such as scale. A modular monolithic application will enable this with minimal effort. For more info, refer to [When Modular Monolith is the better way to build software](https://www.thoughtworks.com/en-us/insights/blog/microservices/modular-monolith-better-way-build-software).
 
+<a name="anc-o">
+
 **Operational Value Stream**: Operational value streams correspond directly to a specific value driver. They:
 
 - Represent the flow of business and the nature of the business
@@ -100,13 +127,21 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 
 - Gartner predicts that by 2027, 30% of large global enterprises will use OWASP Top 10 as part of their security testing processes.
 
+<a name="anc-p">
+
 **Pair Programming**: A programming technique in which two developers work together on a single task, sharing their screens and keyboards.
 
 **Penetration Testing**: A simulated cyber attack on a computer system or network to test its defenses and identify vulnerabilities. Some of the open-source penetration testing tools are Nmap, Metasploit, and Burp Suite.
 
+**Product Management**: In digital business, product management is the process of conceiving, defining, delivering, monitoring and refining products in, and withdrawing products from, a market in order to maximize business results. Product management tasks range from researching markets, customers and competitors, to analyzing customers and products, to developing and maintaining a product vision and roadmap. They also include working with product delivery teams to test and prioritize delivery of product capabilities in order to maximize customer value and business impact and derive growth from digital initiatives.For more info, refer to [this link](https://www.gartner.com/en/information-technology/glossary/product-management-digital-business).
+
 **Pull Request**: A request submitted by a developer to add new features or changes to an existing codebase. It is reviewed by other developers before being merged into the main codebase.
 
+<a name="anc-r">
+
 **Refactoring**: The process of improving the internal structure and organization of existing code without changing its external behavior.
+
+<a name="anc-s">
 
 **SAST**: Static Analysis for Security Testing - A type of security testing that uses automated tools to identify vulnerabilities in an application's source code. Some of the open-source SAST tools are OWASP ZAP, Veracode SCA, and SonarQube.
 
@@ -144,9 +179,13 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 
 **Sprint Retrospective**: A meeting at the end of each sprint to reflect on what went well and what could be improved for the next sprint.
 
+<a name="anc-t">
+
 **Team**: A group of individuals with different skills and expertise who work together to achieve a common goal.
 
 **Technical Debt**: The cost of implementing quick fixes or workarounds that need to be addressed later. It can lead to increased maintenance costs, decreased productivity, and reduced quality over time. For more info, refer to [this link](https://www.gartner.com/en/infrastructure-and-it-operations-leaders/topics/technical-debt).
+
+<a name="anc-v">
 
 **Value Stream**: Value Streams represent the series of steps that an organization uses to implement Solutions that provide a _continuous flow of value to a customer_. A SAFe portfolio contains one or more value streams, each of which is dedicated to build and support a set of solutions, which are the products, services, or systems delivered to the Customer, whether internal or external to the Enterprise. It is the sequence of activities an organization undertakes to deliver on a customer need. It comprises the end-to-end delivery process, from idea to outcome. For more info, refer to [this link](), [Planview: How to identify your value streams](https://info.planview.com/rs/456-QCH-520/images/Identifyng-Value-Streams.pdf) and [How to Identify Your Value Streams: 6 Strategies for Getting Started](https://blog.planview.com/how-to-identify-your-value-streams-6-strategies-for-getting-started/).
 

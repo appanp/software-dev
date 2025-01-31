@@ -1,0 +1,237 @@
+
+Sample log of invoking `pip install -r requirements.txt` below:
+
+```
+(waii) (base) appanp@appan-21kacto1ww:~/learn_llm/waii-hands-on-lab$ pip install -r requirements.txt 
+Collecting waii-sdk-py==1.22.0-dev2 (from -r requirements.txt (line 1))
+  Downloading waii_sdk_py-1.22.0.dev2-py3-none-any.whl.metadata (2.5 kB)
+Collecting streamlit (from -r requirements.txt (line 2))
+  Downloading streamlit-1.39.0-py2.py3-none-any.whl.metadata (8.5 kB)
+Collecting pandas (from -r requirements.txt (line 3))
+  Downloading pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.9/89.9 kB 4.4 MB/s eta 0:00:00
+Collecting plotly==5.23.0 (from -r requirements.txt (line 4))
+  Downloading plotly-5.23.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pydantic==2.8.0 (from -r requirements.txt (line 5))
+  Downloading pydantic-2.8.0-py3-none-any.whl.metadata (123 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.5/123.5 kB 34.5 MB/s eta 0:00:00
+Collecting requests (from waii-sdk-py==1.22.0-dev2->-r requirements.txt (line 1))
+  Using cached requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting tenacity>=6.2.0 (from plotly==5.23.0->-r requirements.txt (line 4))
+  Downloading tenacity-9.0.0-py3-none-any.whl.metadata (1.2 kB)
+Collecting packaging (from plotly==5.23.0->-r requirements.txt (line 4))
+  Using cached packaging-24.1-py3-none-any.whl.metadata (3.2 kB)
+Collecting annotated-types>=0.4.0 (from pydantic==2.8.0->-r requirements.txt (line 5))
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.20.0 (from pydantic==2.8.0->-r requirements.txt (line 5))
+  Downloading pydantic_core-2.20.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Collecting typing-extensions>=4.6.1 (from pydantic==2.8.0->-r requirements.txt (line 5))
+  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting altair<6,>=4.0 (from streamlit->-r requirements.txt (line 2))
+  Downloading altair-5.4.1-py3-none-any.whl.metadata (9.4 kB)
+Collecting blinker<2,>=1.0.0 (from streamlit->-r requirements.txt (line 2))
+  Downloading blinker-1.8.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting cachetools<6,>=4.0 (from streamlit->-r requirements.txt (line 2))
+  Downloading cachetools-5.5.0-py3-none-any.whl.metadata (5.3 kB)
+Collecting click<9,>=7.0 (from streamlit->-r requirements.txt (line 2))
+  Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting numpy<3,>=1.20 (from streamlit->-r requirements.txt (line 2))
+  Downloading numpy-2.1.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.9/60.9 kB 15.9 MB/s eta 0:00:00
+Collecting pillow<11,>=7.1.0 (from streamlit->-r requirements.txt (line 2))
+  Downloading pillow-10.4.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (9.2 kB)
+Collecting protobuf<6,>=3.20 (from streamlit->-r requirements.txt (line 2))
+  Downloading protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+Collecting pyarrow>=7.0 (from streamlit->-r requirements.txt (line 2))
+  Downloading pyarrow-17.0.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting rich<14,>=10.14.0 (from streamlit->-r requirements.txt (line 2))
+  Downloading rich-13.9.1-py3-none-any.whl.metadata (18 kB)
+Collecting toml<2,>=0.10.1 (from streamlit->-r requirements.txt (line 2))
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit->-r requirements.txt (line 2))
+  Downloading GitPython-3.1.43-py3-none-any.whl.metadata (13 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit->-r requirements.txt (line 2))
+  Downloading pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)
+Collecting tornado<7,>=6.0.3 (from streamlit->-r requirements.txt (line 2))
+  Downloading tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+Collecting watchdog<6,>=2.1.5 (from streamlit->-r requirements.txt (line 2))
+  Downloading watchdog-5.0.3-py3-none-manylinux2014_x86_64.whl.metadata (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.9/41.9 kB 11.7 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.2 (from pandas->-r requirements.txt (line 3))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas->-r requirements.txt (line 3))
+  Downloading pytz-2024.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas->-r requirements.txt (line 3))
+  Downloading tzdata-2024.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting jinja2 (from altair<6,>=4.0->streamlit->-r requirements.txt (line 2))
+  Downloading jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting jsonschema>=3.0 (from altair<6,>=4.0->streamlit->-r requirements.txt (line 2))
+  Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting narwhals>=1.5.2 (from altair<6,>=4.0->streamlit->-r requirements.txt (line 2))
+  Downloading narwhals-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit->-r requirements.txt (line 2))
+  Downloading gitdb-4.0.11-py3-none-any.whl.metadata (1.2 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas->-r requirements.txt (line 3))
+  Downloading six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting charset-normalizer<4,>=2 (from requests->waii-sdk-py==1.22.0-dev2->-r requirements.txt (line 1))
+  Using cached charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (33 kB)
+Collecting idna<4,>=2.5 (from requests->waii-sdk-py==1.22.0-dev2->-r requirements.txt (line 1))
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests->waii-sdk-py==1.22.0-dev2->-r requirements.txt (line 1))
+  Downloading urllib3-2.2.3-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests->waii-sdk-py==1.22.0-dev2->-r requirements.txt (line 1))
+  Downloading certifi-2024.8.30-py3-none-any.whl.metadata (2.2 kB)
+Collecting markdown-it-py>=2.2.0 (from rich<14,>=10.14.0->streamlit->-r requirements.txt (line 2))
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich<14,>=10.14.0->streamlit->-r requirements.txt (line 2))
+  Downloading pygments-2.18.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit->-r requirements.txt (line 2))
+  Downloading smmap-5.0.1-py3-none-any.whl.metadata (4.3 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->altair<6,>=4.0->streamlit->-r requirements.txt (line 2))
+  Downloading MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair<6,>=4.0->streamlit->-r requirements.txt (line 2))
+  Downloading attrs-24.2.0-py3-none-any.whl.metadata (11 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair<6,>=4.0->streamlit->-r requirements.txt (line 2))
+  Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair<6,>=4.0->streamlit->-r requirements.txt (line 2))
+  Downloading referencing-0.35.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=3.0->altair<6,>=4.0->streamlit->-r requirements.txt (line 2))
+  Downloading rpds_py-0.20.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14,>=10.14.0->streamlit->-r requirements.txt (line 2))
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading waii_sdk_py-1.22.0.dev2-py3-none-any.whl (39 kB)
+Downloading plotly-5.23.0-py3-none-any.whl (17.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 6.1 MB/s eta 0:00:00
+Downloading pydantic-2.8.0-py3-none-any.whl (423 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 kB 7.6 MB/s eta 0:00:00
+Downloading pydantic_core-2.20.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 8.6 MB/s eta 0:00:00
+Downloading streamlit-1.39.0-py2.py3-none-any.whl (8.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.7/8.7 MB 5.4 MB/s eta 0:00:00
+Downloading pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 5.0 MB/s eta 0:00:00
+Downloading altair-5.4.1-py3-none-any.whl (658 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 658.1/658.1 kB 4.6 MB/s eta 0:00:00
+Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading blinker-1.8.2-py3-none-any.whl (9.5 kB)
+Downloading cachetools-5.5.0-py3-none-any.whl (9.5 kB)
+Downloading click-8.1.7-py3-none-any.whl (97 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB 4.1 MB/s eta 0:00:00
+Downloading GitPython-3.1.43-py3-none-any.whl (207 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.3/207.3 kB 5.0 MB/s eta 0:00:00
+Downloading numpy-2.1.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.0/16.0 MB 5.5 MB/s eta 0:00:00
+Using cached packaging-24.1-py3-none-any.whl (53 kB)
+Downloading pillow-10.4.0-cp312-cp312-manylinux_2_28_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 6.4 MB/s eta 0:00:00
+Downloading protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl (316 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 316.6/316.6 kB 5.5 MB/s eta 0:00:00
+Downloading pyarrow-17.0.0-cp312-cp312-manylinux_2_28_x86_64.whl (39.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.9/39.9 MB 5.9 MB/s eta 0:00:00
+Downloading pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 5.8 MB/s eta 0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 5.8 MB/s eta 0:00:00
+Downloading pytz-2024.2-py2.py3-none-any.whl (508 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 508.0/508.0 kB 6.3 MB/s eta 0:00:00
+Using cached requests-2.32.3-py3-none-any.whl (64 kB)
+Downloading rich-13.9.1-py3-none-any.whl (242 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.1/242.1 kB 6.2 MB/s eta 0:00:00
+Downloading tenacity-9.0.0-py3-none-any.whl (28 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (436 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 436.8/436.8 kB 7.3 MB/s eta 0:00:00
+Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading tzdata-2024.2-py2.py3-none-any.whl (346 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 346.6/346.6 kB 5.9 MB/s eta 0:00:00
+Downloading watchdog-5.0.3-py3-none-manylinux2014_x86_64.whl (79 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.3/79.3 kB 8.5 MB/s eta 0:00:00
+Downloading certifi-2024.8.30-py3-none-any.whl (167 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 167.3/167.3 kB 7.4 MB/s eta 0:00:00
+Using cached charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+Downloading gitdb-4.0.11-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 8.3 MB/s eta 0:00:00
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 7.3 MB/s eta 0:00:00
+Downloading jinja2-3.1.4-py3-none-any.whl (133 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.3/133.3 kB 6.6 MB/s eta 0:00:00
+Downloading jsonschema-4.23.0-py3-none-any.whl (88 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.5/88.5 kB 8.6 MB/s eta 0:00:00
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 7.9 MB/s eta 0:00:00
+Downloading narwhals-1.9.0-py3-none-any.whl (178 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.4/178.4 kB 5.9 MB/s eta 0:00:00
+Downloading pygments-2.18.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 7.6 MB/s eta 0:00:00
+Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.3/126.3 kB 6.7 MB/s eta 0:00:00
+Downloading attrs-24.2.0-py3-none-any.whl (63 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.0/63.0 kB 9.1 MB/s eta 0:00:00
+Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+Downloading MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (28 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading referencing-0.35.1-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.20.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (357 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 358.0/358.0 kB 8.7 MB/s eta 0:00:00
+Downloading smmap-5.0.1-py3-none-any.whl (24 kB)
+Installing collected packages: pytz, watchdog, urllib3, tzdata, typing-extensions, tornado, toml, tenacity, smmap, six, rpds-py, pygments, protobuf, pillow, packaging, numpy, narwhals, mdurl, MarkupSafe, idna, click, charset-normalizer, certifi, cachetools, blinker, attrs, annotated-types, requests, referencing, python-dateutil, pydantic-core, pyarrow, plotly, markdown-it-py, jinja2, gitdb, waii-sdk-py, rich, pydeck, pydantic, pandas, jsonschema-specifications, gitpython, jsonschema, altair, streamlit
+Successfully installed MarkupSafe-2.1.5 altair-5.4.1 annotated-types-0.7.0 attrs-24.2.0 blinker-1.8.2 cachetools-5.5.0 certifi-2024.8.30 charset-normalizer-3.3.2 click-8.1.7 gitdb-4.0.11 gitpython-3.1.43 idna-3.10 jinja2-3.1.4 jsonschema-4.23.0 jsonschema-specifications-2023.12.1 markdown-it-py-3.0.0 mdurl-0.1.2 narwhals-1.9.0 numpy-2.1.1 packaging-24.1 pandas-2.2.3 pillow-10.4.0 plotly-5.23.0 protobuf-5.28.2 pyarrow-17.0.0 pydantic-2.8.0 pydantic-core-2.20.0 pydeck-0.9.1 pygments-2.18.0 python-dateutil-2.9.0.post0 pytz-2024.2 referencing-0.35.1 requests-2.32.3 rich-13.9.1 rpds-py-0.20.0 six-1.16.0 smmap-5.0.1 streamlit-1.39.0 tenacity-9.0.0 toml-0.10.2 tornado-6.4.1 typing-extensions-4.12.2 tzdata-2024.2 urllib3-2.2.3 waii-sdk-py-1.22.0.dev2 watchdog-5.0.3
+
+[notice] A new release of pip is available: 24.0 -> 24.2
+[notice] To update, run: pip install --upgrade pip
+(waii) (base) appanp@appan-21kacto1ww:~/learn_llm/waii-hands-on-lab$ pip install --upgrade pip
+Requirement already satisfied: pip in ./waii/lib/python3.12/site-packages (24.0)
+Collecting pip
+  Using cached pip-24.2-py3-none-any.whl.metadata (3.6 kB)
+Using cached pip-24.2-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed pip-24.2
+(waii) (base) appanp@appan-21kacto1ww:~/learn_llm/waii-hands-on-lab$ LOG_LEVEL=DEBUG streamlit run main.py
+
+      👋 Welcome to Streamlit!
+
+      If you’d like to receive helpful onboarding emails, news, offers, promotions,
+      and the occasional swag, please enter your email address below. Otherwise,
+      leave this field blank.
+
+      Email:  
+
+  You can find our privacy policy at https://streamlit.io/privacy-policy
+
+  Summary:
+  - This open source library collects usage statistics.
+  - We cannot see and do not store information contained inside Streamlit apps,
+    such as text, charts, images, etc.
+  - Telemetry data is stored in servers in the United States.
+  - If you'd like to opt out, add the following to ~/.streamlit/config.toml,
+    creating that file if necessary:
+
+    [browser]
+    gatherUsageStats = false
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.9:8501
+
+{'type': 'text', 'role': 'assistant', 'output': 'Waii chatbot is here to help you with your SQL queries'}
+{'type': 'text', 'role': 'assistant', 'output': 'Waii chatbot is here to help you with your SQL queries'}
+
+
+^C  Stopping...
+(waii) (base) appanp@appan-21kacto1ww:~/learn_llm/waii-hands-on-lab$ ls
+bots          display.py  lab-docs  logo.png  __pycache__  requirements.txt  waii
+constants.py  history.py  LICENSE   main.py   README.md    utils.py
+(waii) (base) appanp@appan-21kacto1ww:~/learn_llm/waii-hands-on-lab$ cat requirements.txt 
+waii-sdk-py==1.22.0-dev2
+streamlit
+pandas
+plotly==5.23.0
+
+```
