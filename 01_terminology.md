@@ -7,7 +7,7 @@ Some of the TODOs to complete this terminology list are:
 - [ ] - Add "for more info" links to each term.
 - [x] - Add anchors & links for getting to the terms quickly using an index.
 
-[A](#anc-a) [B](#anc-b) [C](#anc-c) [D](#anc-d) [E](#anc-e) [F](#anc-f) [G](#anc-g) H [I](#anc-i) [K](#anc-k) [L](#anc-l) [M](#anc-m) N [O](#anc-o) [P](#anc-p) Q [R](#anc-r) [S](#anc-s) [T](#anc-t) U [V](#anc-v) W X Y Z
+[A](#anc-a) [B](#anc-b) [C](#anc-c) [D](#anc-d) [E](#anc-e) [F](#anc-f) [G](#anc-g) H [I](#anc-i) [K](#anc-k) [L](#anc-l) [M](#anc-m) N [O](#anc-o) [P](#anc-p) Q [R](#anc-r) [S](#anc-s) [T](#anc-t) [U](#anc-u) [V](#anc-v) W X Y Z
 
 <a name="anc-a">
 
@@ -41,11 +41,13 @@ Some of the TODOs to complete this terminology list are:
 
 **DesignOps**: The intersection of design and operations, which aims to improve the efficiency and effectiveness of product development by integrating design thinking into the operational workflow.
 
-**Development Value Stream**: TODO
+**Development Value Stream**: The Development Value Stream focuses on the creation and development of new products, services, or features. It involves transforming ideas and requirements into a deliverable product or service. Activities: This includes design, development, testing, and the integration of new features or products. The goal is to bring new value to the customer through innovation and improvement. Goal: The primary goal is to effectively convert customer needs and business requirements into new or improved products and services sooner. Flow efficiency is key. For more info, refer to [this link](https://www.scrum.org/resources/blog/what-about-value-streams) and [Development Value Stream](https://scaledagileframework.com/development-value-streams).
 
 **DevOps**: It is practice in which development & operations are not treated as separate.
 
 **DevSecOps**: A set of practices that combines development and security into a single process. This approach aims to ensure that security is integrated into every stage of the software development lifecycle, from development to deployment.
+
+**Domain Driven Design**: A design approach described in Eric Evans’ “Domain Driven Design” (2003), consists notably of striving to use the vocabulary of a given business domain, not only in discussions about the requirements for a software product but in discussions of design as well and all the way into “the product’s source code itself”. For more info, refer to [this link](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design), [The Concept of Domain-Driven Design Explained](https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f) and [Domain Driven Design in 10 Mins - Part 1](https://www.thoughtworks.com/en-in/insights/blog/evolutionary-architecture/domain-driven-design-in-10-minutes-part-one) & [Part 2](https://www.thoughtworks.com/en-in/insights/blog/evolutionary-architecture/domain-driven-design-part-two).
 
 <a name="anc-e">
 
@@ -111,6 +113,8 @@ For more info, refer to [this link](https://www.mendix.com/blog/fusion-teams-exp
 
 **Modular Monolith**: Modular monolithic architecture is a way of organizing a software application into a set of modules. These modules have specific functionality, which can be independently developed and tested, while the entire application is deployed as a single unit. There might arise a situation where a few modules need to be extracted for reasons such as scale. A modular monolithic application will enable this with minimal effort. For more info, refer to [When Modular Monolith is the better way to build software](https://www.thoughtworks.com/en-us/insights/blog/microservices/modular-monolith-better-way-build-software).
 
+**Mutation Testing**: Faults (or mutations) are automatically seeded into your code, then your tests are run. If your tests fail then the mutation is killed, if your tests pass then the mutation lived. The quality of your tests can be gauged from the percentage of mutations killed. For more info, refer to [this link](https://stryker-mutator.io/docs/), [Who's testing the tests? Mutation testing with StrykerJS](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-1683-who-s-testing-the-tests-mutation-testing-with-strykerjs/) and [pitest tool](https://pitest.org/).
+
 <a name="anc-o">
 
 **Operational Value Stream**: Operational value streams correspond directly to a specific value driver. They:
@@ -132,6 +136,8 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 **Pair Programming**: A programming technique in which two developers work together on a single task, sharing their screens and keyboards.
 
 **Penetration Testing**: A simulated cyber attack on a computer system or network to test its defenses and identify vulnerabilities. Some of the open-source penetration testing tools are Nmap, Metasploit, and Burp Suite.
+
+**Predictive Test Selection (PTS)**: The need to release high-quality products quickly is more critical than ever. While test automation has greatly improved the efficiency of testing processes, the sheer volume of tests required can still overwhelm even the most streamlined teams. Enter Predictive Test Selection (PTS) — an AI-driven approach designed to optimize and accelerate the testing process by focusing on the areas of your code most likely to fail. For more info, refer to [this link](https://wopee.io/blog/predictive-test-selection/) and [Facebook Engg. team blog](https://engineering.fb.com/2018/11/21/developer-tools/predictive-test-selection/) ([paper link](https://research.facebook.com/file/354896332934404/Predictive-Test-Selection.pdf)).
 
 **Product Management**: In digital business, product management is the process of conceiving, defining, delivering, monitoring and refining products in, and withdrawing products from, a market in order to maximize business results. Product management tasks range from researching markets, customers and competitors, to analyzing customers and products, to developing and maintaining a product vision and roadmap. They also include working with product delivery teams to test and prioritize delivery of product capabilities in order to maximize customer value and business impact and derive growth from digital initiatives.For more info, refer to [this link](https://www.gartner.com/en/information-technology/glossary/product-management-digital-business).
 
@@ -185,14 +191,16 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 
 **Technical Debt**: The cost of implementing quick fixes or workarounds that need to be addressed later. It can lead to increased maintenance costs, decreased productivity, and reduced quality over time. For more info, refer to [this link](https://www.gartner.com/en/infrastructure-and-it-operations-leaders/topics/technical-debt).
 
+**Ubiquitous Language**: A design approach described in Eric Evans’ “Domain Driven Design” (2003), consists notably of striving to use the vocabulary of a given business domain, not only in discussions about the requirements for a software product but in discussions of design as well and all the way into “the product’s source code itself”. For more info, refer to [this link](https://www.agilealliance.org/glossary/ubiquitous-language/) and [developing the ubiquitous language](https://thedomaindrivendesign.io/developing-the-ubiquitous-language/).
+
 <a name="anc-v">
 
-**Value Stream**: Value Streams represent the series of steps that an organization uses to implement Solutions that provide a _continuous flow of value to a customer_. A SAFe portfolio contains one or more value streams, each of which is dedicated to build and support a set of solutions, which are the products, services, or systems delivered to the Customer, whether internal or external to the Enterprise. It is the sequence of activities an organization undertakes to deliver on a customer need. It comprises the end-to-end delivery process, from idea to outcome. For more info, refer to [this link](), [Planview: How to identify your value streams](https://info.planview.com/rs/456-QCH-520/images/Identifyng-Value-Streams.pdf) and [How to Identify Your Value Streams: 6 Strategies for Getting Started](https://blog.planview.com/how-to-identify-your-value-streams-6-strategies-for-getting-started/).
+**Value Stream**: Value Streams represent the series of steps that an organization uses to implement Solutions that provide a _continuous flow of value to a customer_. A SAFe portfolio contains one or more value streams, each of which is dedicated to build and support a set of solutions, which are the products, services, or systems delivered to the Customer, whether internal or external to the Enterprise. It is the sequence of activities an organization undertakes to deliver on a customer need. It comprises the end-to-end delivery process, from idea to outcome. For more info, refer to [this link](https://www.pmi.org/disciplined-agile/process/value-streams), [Planview: How to identify your value streams](https://info.planview.com/rs/456-QCH-520/images/Identifyng-Value-Streams.pdf) and [How to Identify Your Value Streams: 6 Strategies for Getting Started](https://blog.planview.com/how-to-identify-your-value-streams-6-strategies-for-getting-started/).
 
 **Value Stream Management**: It is the practice of measuring and improving end-to-end flow, eliminating dependencies and bottlenecks to unlock capacity and deliver value more efficiently. The [Flow Framework](https://flowframework.org/) is a blueprint for practicing value stream management. It provides guidance on how to map and measure product value streams to gain full visibility into the work and its impact on business outcomes.
 
 **Value Stream Mapping**: A technique used to visualize and analyze a process to identify areas for improvement, by identifying value-adding and non-value add steps in the process.
-For more info, refer to [this link](https://www.lean.org/the-lean-post/articles/understanding-the-fundamentals-of-value-stream-mapping).
+For more info, refer to [this link](https://www.lean.org/the-lean-post/articles/understanding-the-fundamentals-of-value-stream-mapping) and [this how-to video](https://www.youtube.com/watch?v=tGDrt8SV5H4).
 
 **Version Control System (VCS)**: Software that helps manage changes to source code over time. Some popular VCS tools are Git, SVN, and Mercurial.
 
