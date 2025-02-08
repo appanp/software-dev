@@ -25,7 +25,7 @@ Some of the TODOs to complete this terminology list are:
 
 <a name="anc-b"><hr></a>
 
-[Back to Index[(#term-idx)
+[Back to Index](#term-idx)
 
 **Backlog**: A collection of features, requirements, and user stories that need to be implemented in a project. A prioritized list of features and tasks to be completed in an Agile project.
 
@@ -100,7 +100,7 @@ For more info, refer to [this link](https://www.mendix.com/blog/fusion-teams-exp
 **Language Server Protocol (LSP)**: The Language Server Protocol (LSP) is an open-standard protocol developed by Microsoft. It enables communication between development tools and Language Servers. For more info, refer to [this link](https://tamerlan.dev/an-introduction-to-the-language-server-protocol/) and the [protocol specification](https://microsoft.github.io/language-server-protocol/).
 
 <a name="anc-m"><hr></a>
-[Back to Index[(#term-idx)
+[Back to Index](#term-idx)
 
 **Microservices Architecture**: Software development paradigm that structures an application as a collection of small, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently. For more info, refer to [this link](TODO) and [Monolithic vs Microservices Architecture: Pros, Cons and Which to Choose](https://www.openlegacy.com/blog/monolithic-application).
 
