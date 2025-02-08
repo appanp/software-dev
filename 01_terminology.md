@@ -30,6 +30,7 @@ Some of the TODOs to complete this terminology list are:
 **Backlog**: A collection of features, requirements, and user stories that need to be implemented in a project. A prioritized list of features and tasks to be completed in an Agile project.
 
 <a name="anc-c"><hr></a>
+[Back to Index](#term-idx)
 
 **Code Review**: The process of examining source code to ensure it meets certain standards and best practices. It helps improve the quality and maintainability of the codebase.
 
@@ -38,6 +39,7 @@ Some of the TODOs to complete this terminology list are:
 **Command Query Response Seggregation (CQRS) Principle/Pattern**: The idea behind the CQRS pattern is very simple. Instead of having one unified model, you need to introduce two: one for reads and the other one for writes, and that’s it. CQRS was introduced by Greg Young back in 2010. Greg, himself, based this idea on the command-query separation principle coined by Bertrand Meyer. Command-query separation principle, CQS for short, states that every method should either be a command that performs an action, or a query that returns data to the caller, but not both. To follow this principle, you need to make sure that if a method changes some piece of state, this method should always be of type void, otherwise, it should return something. For more info, refer to [this link](https://codewithshadman.com/cqrs-design-pattern-csharp/) and [CQRS Pattern - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs).
 
 <a name="anc-d"><hr></a>
+[Back to Index](#term-idx)
 
 **DAST**: Dynamic Analysis for Security Testing, a type of security testing that uses automated tools to identify vulnerabilities in an application's code. Some of the open-source DAST tools are OWASP ZAP, Veracode SCA, and Burp Suite. This is a technique for testing web applications, mobile apps and APIs to identify vulnerabilities that can be exploited by attackers.
 
@@ -54,6 +56,7 @@ Some of the TODOs to complete this terminology list are:
 **Domain Driven Design**: A design approach described in Eric Evans’ “Domain Driven Design” (2003), consists notably of striving to use the vocabulary of a given business domain, not only in discussions about the requirements for a software product but in discussions of design as well and all the way into “the product’s source code itself”. For more info, refer to [this link](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design), [The Concept of Domain-Driven Design Explained](https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f) and [Domain Driven Design in 10 Mins - Part 1](https://www.thoughtworks.com/en-in/insights/blog/evolutionary-architecture/domain-driven-design-in-10-minutes-part-one) & [Part 2](https://www.thoughtworks.com/en-in/insights/blog/evolutionary-architecture/domain-driven-design-part-two).
 
 <a name="anc-e"><hr></a>
+[Back to Index](#term-idx)
 
 **Event-Driven Architecture (EDA)**: A software development paradigm that structures an application around the concept of events. Events are used to communicate between different components of the system.
 
@@ -70,6 +73,7 @@ Some of the TODOs to complete this terminology list are:
   - Requires careful event handling and processing
 
 <a name="anc-f"><hr></a>
+[Back to Index](#term-idx)
 
 **Fusion Team Strategy**: A fusion team strategy is a way to collaborate across departments to solve problems and achieve business goals. Fusion teams are often used in software development and digital transformation. When assembling a fusion team, don’t forget to:
 
@@ -82,24 +86,29 @@ Some of the TODOs to complete this terminology list are:
 For more info, refer to [this link](https://www.mendix.com/blog/fusion-teams-explained-benefits-roles-examples).
 
 <a name="anc-g"><hr></a>
+[Back to Index](#term-idx)
 
 **GitOps**: A set of practices that aim to automate as much as possible, so that there's less room for human error and more time can be spent on high-value tasks. This enables teams to collaborate better and work faster.
 
 <a name="anc-i"><hr></a>
+[Back to Index](#term-idx)
 
 **Interactive Application Security Testing (IAST)**: IAST is an application security testing method that tests the application while the app is run by an automated test, human tester, or any activity “interacting” with the application functionality. The core of an IAST tool is sensor modules, software libraries included in the application code. These sensor modules keep track of application behavior while the interactive tests are running. If a vulnerability is detected, an alert will be sent. For more info, refer to [this link](https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing).
 
 <a name="anc-k"><hr></a>
+[Back to Index](#term-idx)
 
 **Kubernetes**: An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications.
 
 <a name="anc-l"><hr></a>
+[Back to Index](#term-idx)
 
 **Language Server**: Language Servers can provide language-specific features such as code completion, documentation, and formatting, which is far easier than implementing language support from scratch. It also reduces the need for constant maintenance and tracking of changes in relevant languages and tools, making it easier to bring consistent language support to various development environments. For more info, refer to [this link](https://tamerlan.dev/an-introduction-to-the-language-server-protocol/) and [implementation list of language servers](https://langserver.org/).
 
 **Language Server Protocol (LSP)**: The Language Server Protocol (LSP) is an open-standard protocol developed by Microsoft. It enables communication between development tools and Language Servers. For more info, refer to [this link](https://tamerlan.dev/an-introduction-to-the-language-server-protocol/) and the [protocol specification](https://microsoft.github.io/language-server-protocol/).
 
 <a name="anc-m"><hr></a>
+[Back to Index](#term-idx)
 [Back to Index](#term-idx)
 
 **Microservices Architecture**: Software development paradigm that structures an application as a collection of small, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently. For more info, refer to [this link](TODO) and [Monolithic vs Microservices Architecture: Pros, Cons and Which to Choose](https://www.openlegacy.com/blog/monolithic-application).
@@ -121,6 +130,7 @@ For more info, refer to [this link](https://www.mendix.com/blog/fusion-teams-exp
 **Mutation Testing**: Faults (or mutations) are automatically seeded into your code, then your tests are run. If your tests fail then the mutation is killed, if your tests pass then the mutation lived. The quality of your tests can be gauged from the percentage of mutations killed. For more info, refer to [this link](https://stryker-mutator.io/docs/), [Who's testing the tests? Mutation testing with StrykerJS](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-1683-who-s-testing-the-tests-mutation-testing-with-strykerjs/) and [pitest tool](https://pitest.org/).
 
 <a name="anc-o"><hr></a>
+[Back to Index](#term-idx)
 
 **Operational Value Stream**: Operational value streams correspond directly to a specific value driver. They:
 
@@ -137,6 +147,7 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 - Gartner predicts that by 2027, 30% of large global enterprises will use OWASP Top 10 as part of their security testing processes.
 
 <a name="anc-p"><hr></a>
+[Back to Index](#term-idx)
 
 **Pair Programming**: A programming technique in which two developers work together on a single task, sharing their screens and keyboards.
 
@@ -149,10 +160,12 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 **Pull Request**: A request submitted by a developer to add new features or changes to an existing codebase. It is reviewed by other developers before being merged into the main codebase.
 
 <a name="anc-r"><hr></a>
+[Back to Index](#term-idx)
 
 **Refactoring**: The process of improving the internal structure and organization of existing code without changing its external behavior.
 
 <a name="anc-s"><hr></a>
+[Back to Index](#term-idx)
 
 **SAST**: Static Analysis for Security Testing - A type of security testing that uses automated tools to identify vulnerabilities in an application's source code. Some of the open-source SAST tools are OWASP ZAP, Veracode SCA, and SonarQube.
 
@@ -191,6 +204,7 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 **Sprint Retrospective**: A meeting at the end of each sprint to reflect on what went well and what could be improved for the next sprint.
 
 <a name="anc-t"><hr></a>
+[Back to Index](#term-idx)
 
 **Team**: A group of individuals with different skills and expertise who work together to achieve a common goal.
 
@@ -199,6 +213,7 @@ For more info, refer to [this link](https://blog.planview.com/operational-vs-dev
 **Ubiquitous Language**: A design approach described in Eric Evans’ “Domain Driven Design” (2003), consists notably of striving to use the vocabulary of a given business domain, not only in discussions about the requirements for a software product but in discussions of design as well and all the way into “the product’s source code itself”. For more info, refer to [this link](https://www.agilealliance.org/glossary/ubiquitous-language/) and [developing the ubiquitous language](https://thedomaindrivendesign.io/developing-the-ubiquitous-language/).
 
 <a name="anc-v"><hr></a>
+[Back to Index](#term-idx)
 
 **Value Stream**: Value Streams represent the series of steps that an organization uses to implement Solutions that provide a _continuous flow of value to a customer_. A SAFe portfolio contains one or more value streams, each of which is dedicated to build and support a set of solutions, which are the products, services, or systems delivered to the Customer, whether internal or external to the Enterprise. It is the sequence of activities an organization undertakes to deliver on a customer need. It comprises the end-to-end delivery process, from idea to outcome. For more info, refer to [this link](https://www.pmi.org/disciplined-agile/process/value-streams), [Planview: How to identify your value streams](https://info.planview.com/rs/456-QCH-520/images/Identifyng-Value-Streams.pdf) and [How to Identify Your Value Streams: 6 Strategies for Getting Started](https://blog.planview.com/how-to-identify-your-value-streams-6-strategies-for-getting-started/).
 
