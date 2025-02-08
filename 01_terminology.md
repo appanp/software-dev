@@ -7,6 +7,8 @@ Some of the TODOs to complete this terminology list are:
 - [ ] - Add "for more info" links to each term.
 - [x] - Add anchors & links for getting to the terms quickly using an index.
 
+<a name="term-idx"><hr></a>
+
 [A](#anc-a) [B](#anc-b) [C](#anc-c) [D](#anc-d) [E](#anc-e) [F](#anc-f) [G](#anc-g) H [I](#anc-i) [K](#anc-k) [L](#anc-l) [M](#anc-m) N [O](#anc-o) [P](#anc-p) Q [R](#anc-r) [S](#anc-s) [T](#anc-t) [U](#anc-u) [V](#anc-v) W X Y Z
 
 <a name="anc-a"><hr></a>
@@ -22,6 +24,8 @@ Some of the TODOs to complete this terminology list are:
 **Architecture Observability**: Architectural Observability is like having a very detailed map of a software application. It gives architects detailed visibility and context into an existing application’s architecture to profile and baseline how an application is architected, identifying domains and cross-domain contamination, collecting observable dynamic operational and static data to proactively fix issues, set baselines, detect drift, identify significant architectural events, and resolve architectural inconsistencies. For more info, refer to [this link](https://dzone.com/articles/the-agile-architect-mastering-architectural-observ) and [vFunction Platform](https://vfunction.com/use-cases/architectural-drift/) and [RedMonk Conversation - Shifting Architecture Left](https://vfunction.com/resources/video-redmonk-shifting-architecture-left/).
 
 <a name="anc-b"><hr></a>
+
+[Back to Index[(#term-idx)
 
 **Backlog**: A collection of features, requirements, and user stories that need to be implemented in a project. A prioritized list of features and tasks to be completed in an Agile project.
 
@@ -96,6 +100,7 @@ For more info, refer to [this link](https://www.mendix.com/blog/fusion-teams-exp
 **Language Server Protocol (LSP)**: The Language Server Protocol (LSP) is an open-standard protocol developed by Microsoft. It enables communication between development tools and Language Servers. For more info, refer to [this link](https://tamerlan.dev/an-introduction-to-the-language-server-protocol/) and the [protocol specification](https://microsoft.github.io/language-server-protocol/).
 
 <a name="anc-m"><hr></a>
+[Back to Index[(#term-idx)
 
 **Microservices Architecture**: Software development paradigm that structures an application as a collection of small, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently. For more info, refer to [this link](TODO) and [Monolithic vs Microservices Architecture: Pros, Cons and Which to Choose](https://www.openlegacy.com/blog/monolithic-application).
 
